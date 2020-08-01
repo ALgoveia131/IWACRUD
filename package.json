@@ -1,10 +1,15 @@
 {
-  "name": "iwacrud",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "angulardemo",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "generate": "node ./server/generateData.js > ./server/database.json",
+    "server": "json-server --watch ./server/database.json"
   },
   "repository": {
     "type": "git",
